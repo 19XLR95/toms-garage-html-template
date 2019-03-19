@@ -1,0 +1,201 @@
+#mainCarDiv
+{
+  z-index: -1;
+}
+
+#topBarMenu
+{
+  position: fixed;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  width: 100%;
+  background-color: rgba(42, 42, 42, 0);
+  z-index: 10;
+}
+
+#title
+{
+  font-size: 22px;
+}
+
+#gridMargins
+{
+  margin-top: 50px;
+}
+
+#sendBtn
+{
+  background-color: rgba(42, 42, 42, 1);
+  color: white;
+}
+
+#footer
+{
+  margin-top: 50px;
+  padding: 25px;
+  width: 100%;
+  background-color: rgba(42, 42, 42, 1);
+}
+
+#footerTextColor
+{
+  color: white;
+}
+
+.footer-text-size
+{
+  font-size: 12px;
+}
+
+.footer-social-text-size
+{
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 512px)
+{
+  #title
+  {
+    font-size: 36px;
+  }
+
+  #topBarMenu
+  {
+    position: fixed;
+    padding-top: 30px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0);
+    z-index: 10;
+  }
+
+  #slogan
+  {
+    font-size: 18px;
+  }
+
+  #gridTitle
+  {
+    font-size: 36px;
+  }
+
+  #whoWeAreContent
+  {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 640px)
+{
+  #title
+  {
+    font-size: 56px;
+  }
+
+  #slogan
+  {
+    font-size: 22px;
+  }
+
+  #topBarMenu
+  {
+    position: fixed;
+    padding-top: 40px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0);
+    z-index: 10;
+  }
+
+  #gridTitle
+  {
+    font-size: 46px;
+  }
+
+    .footer-text-size
+    {
+      font-size: 14px;
+    }
+
+    .footer-social-text-size
+    {
+      font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+  #title
+  {
+    font-size: 80px;
+  }
+
+  #slogan
+  {
+    font-size: 26px;
+  }
+
+  #topBarMenu
+  {
+    position: fixed;
+    padding-top: 50px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0);
+    z-index: 10;
+
+  }
+
+  #gridTitle
+  {
+    font-size: 56px;
+  }
+
+  #whoWeAreContent
+  {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 896px)
+{
+  #title
+  {
+    font-size: 100px;
+  }
+
+  #slogan
+  {
+    font-size: 34px;
+  }
+
+  #topBarMenu
+  {
+    position: fixed;
+    padding-top: 60px;
+    padding-bottom: 7px;
+    padding-left: 60px;
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0);
+    z-index: 10;
+  }
+
+  #gridTitle
+  {
+    font-size: 66px;
+  }
+
+    .footer-text-size
+    {
+      font-size: 16px;
+    }
+
+    .footer-social-text-size
+    {
+      font-size: 32px;
+    }
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Classic car repair and restorations. Tom's Garage.">
+
+    <title>Sample Designs | Tom's Garage</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="res/images/logo_favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+    <div id="sideBarMenu" class="ui left vertical inverted sidebar labeled icon menu">
+      <a class="item" href="index.html">
+        <i class="fas fa-home icon"></i>Home
+      </a>
+      <a class="item" href="sample-designs.html">
+        <i class="fas fa-paint-brush icon"></i>Sample Designs
+      </a>
+      <a class="item" href="tools-and-techniques.html">
+        <i class="fas fa-wrench icon"></i>Tools and Techniques
+      </a>
+      <a class="item" href="make-appointment.html">
+        <i class="fas fa-calendar-check icon"></i>Request Appointment
+      </a>
+      <a class="item" href="contact-us.html">
+        <i class="fas fa-map-marker-alt icon"></i>Contact Us
+      </a>
+    </div>
+
+    <div id="topBarMenu">
+      <button id="sideBarMenuBtn" class="ui basic inverted icon button" onclick="openSideBarMenu()">
+        <i class="fas fa-bars icon"></i> <span id="menuBtnText">Menu</span>
+      </button>
+    </div>
+
+    <div id="mainCarDiv" class="ui image">
+      <div class="ui active dimmer">
+        <div class="content">
+          <div class="ui grid">
+            <div class="ui row">
+              <div class="ui column">
+                <p>
+                  <b id="title">Contact Us</b>
+                </p>
+              </div>
+            </div>
+            <div class="ui computer tablet only column"></div>
+            <div class="ui row">
+              <div class="ui column">
+                <p>
+                  <i id="slogan">Do you have any questions? Feel free!</i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="res/images/contact-us1.jpg" alt="contact-us1">
+    </div>
+
+    <div class="ui container">
+      <div id="gridMargins" class="ui grid">
+        <div class="ui one column row">
+          <div class="ui center aligned column">
+            <h1 id="gridTitle" class="ui dividing header">Contact Us</h1>
+          </div>
+        </div>
+
+        <div class="ui one column row">
+          <div class="ui column">
+            <div class="ui center aligned top attached segment">
+              <h2>
+                <i class="fas fa-map-marked-alt"></i> Address
+              </h2>
+              <div class="ui header">
+                Tom's Garage, 1750 East 4th Street Santa Ana, CA 92705
+              </div>
+            </div>
+            
+            <div class="ui center aligned attached segment">
+              <h2>
+                <i class="fas fa-at"></i> e-Mail
+              </h2>
+              <div class="ui header">
+                info@tomsgarage.com
+              </div>
+            </div>
+            
+            <div class="ui center aligned attached segment">
+              <h2>
+                <i class="fas fa-phone"></i> Phone
+              </h2>
+              <div class="ui header">
+                +10 657 328 6000
+              </div>
+            </div>
+            
+            <div class="ui center aligned bottom attached segment">
+              <h2>
+                <i class="fas fa-fax"></i> Fax
+              </h2>
+              <div class="ui header">
+                +10 657 328 6011
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="ui one column row">
+          <div class="ui column">
+            <div class="ui segment">
+              <h2 class="ui centered header">Contact Form</h2>
+              <form class="ui form">
+                <div class="ui three fields">
+                  <div class="ui required field">
+                    <label>First Name</label>
+                    <input type="text" placeholder="First Name">
+                  </div>
+                  <div class="ui field">
+                    <label>Middle Name</label>
+                    <input type="text" placeholder="Middle Name">
+                  </div>
+                  <div class="ui required field">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Last Name">
+                  </div>
+                </div>
+                <div class="ui two fields">
+                  <div class="ui required field">
+                    <label>Phone</label>
+                    <input type="text" placeholder="555 36 24">
+                  </div>
+                  <div class="ui required field">
+                    <label>Email</label>
+                    <input type="text" placeholder="example@mail.com">
+                  </div>
+                </div>
+                <div class="ui required field">
+                  <label>Your Questions Details</label>
+                  <textarea placeholder="Details..."></textarea>
+                </div>
+                <div class="ui field">
+                  <button id="sendBtn" class="ui large fade animated fluid button">
+                    <div class="visible content">Send</div>
+                    <div class="hidden content">
+                      <i class="fas fa-paper-plane icon"></i>
+                    </div>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="ui container">
+        <div class="ui three column grid">
+          <div class="ui row">
+            <div class="ui left aligned column">
+              <div class="ui animated list">
+                <a id="footerTextColor" class="item footer-text-size" href="index.html">Home</a>
+                <a id="footerTextColor" class="item footer-text-size" href="sample-designs.html">Sample Designs</a>
+                <a id="footerTextColor" class="item footer-text-size" href="tools-and-techniques.html">Tools and Techniques</a>
+                <a id="footerTextColor" class="item footer-text-size" href="make-appointment.html">Request Appointment</a>
+                <a id="footerTextColor" class="item footer-text-size" href="contact-us.html">Contact Us</a>
+              </div>
+            </div>
+    
+            <div class="ui center aligned column">
+              <div class="ui grid">
+                <div class="ui row">
+                  <div class="ui column">
+                    <img class="ui centered small image" src="res/images/logo.png" alt="logo">
+                  </div>
+                </div>
+                <div class="ui row">
+                  <div class="ui column">
+                    <h1 id="footerTextColor" class="ui icon large header">Tom's Garage</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="ui right aligned column">
+              <div class="ui horizontal list">
+                <a id="footerTextColor" class="item" target="_blank" href="#">
+                  <i class="fab fa-facebook-square footer-social-text-size"></i>
+                </a>
+                <a id="footerTextColor" class="item" target="_blank" href="#">
+                  <i class="fab fa-twitter-square footer-social-text-size"></i>
+                </a>
+                <a id="footerTextColor" class="item" target="_blank" href="#">
+                  <i class="fab fa-instagram footer-social-text-size"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="ui one column row">
+            <div class="ui right aligned column">
+              <a id="footerTextColor" target="_blank" href="https://www.clasxsoft.com">
+                <i>All rights reserved. | ClasX Software &reg;</i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script src="js/app.js"></script>
+
+</html>
