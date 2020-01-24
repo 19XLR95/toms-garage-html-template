@@ -1,2 +1,2 @@
 # toms-garage-html-template
-toms-garage-html-template
+responsive toms garage html template
